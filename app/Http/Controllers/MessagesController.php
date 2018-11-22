@@ -53,7 +53,7 @@ class MessagesController extends Controller
             ]);
 
         Mail::send('emails.contact', ['msg' => $message], function($m) use($message){
-            $m->to($message->email, $message->name)->subject('Tu msj fue recibido');
+            $m->to($message->email, $message->name)->subject('Confirmation of your message sended');
         });
 
         return redirect()->back()->with('success', 'Your message has been sent successfully!');
