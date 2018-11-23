@@ -3,7 +3,7 @@
         <div class="contenedor_hero">
             <h1>Web desing services</h1>
             <p> I will make your web site look and position itself as the best, </p>
-            <p> making your sales will increase significantly. </p>
+            <p> making your sales increase significantly. </p>
             <a href="#service" class="boton">Services</a>
         </div>
     </div>
