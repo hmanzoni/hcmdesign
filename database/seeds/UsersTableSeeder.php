@@ -16,7 +16,7 @@ class UsersTableSeeder extends Seeder
     	User::create([
     		'name' => 'Hugo',
     		'email' => 'hugocmdesign@gmail.com',
-    		'password' => 'capodeitutticapi'
+    		'password' => 'ilcapodeitutticapi'
     	]);
     }
 }
